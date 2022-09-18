@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "provideroptions": {
+        "cloud_name": "yungo",
+        "api_key": "197139815246695",
+        "api_secret": "7gOGnvq553-mzHwaNh_xJvyqGjM"
+    }
+}

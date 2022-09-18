@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meetingrooms",
+  "info": {
+    "singularName": "meetingroom",
+    "pluralName": "meetingrooms",
+    "displayName": "Meetingroom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MeetingroomName": {
+      "type": "string"
+    },
+    "Seets": {
+      "type": "integer"
+    },
+    "meetings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::meeting.meeting",
+      "mappedBy": "meetingroom"
+    },
+    "TV": {
+      "type": "boolean"
+    },
+    "Whiteboard": {
+      "type": "boolean"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

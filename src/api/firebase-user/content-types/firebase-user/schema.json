@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "firebase_users",
+  "info": {
+    "singularName": "firebase-user",
+    "pluralName": "firebase-users",
+    "displayName": "FirebaseUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UID": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "ScreenMode": {
+      "type": "string"
+    }
+  }
+}
